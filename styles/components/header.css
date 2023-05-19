@@ -36,10 +36,10 @@
   }
 
   .header__link {
-    font-size: var(--size-xs);
+    font-size: var(--size-base);
     text-decoration: none;
     font-weight: 600;
-    color: var(--clr-slate600);
+    color: var(--clr-light);
     letter-spacing: -0.05em;
     transition: color 0.3s;
   }
@@ -72,7 +72,7 @@
 /* lg */
 @media (min-width: 1024px) {
   .header__link {
-    font-size: var(--size-sm);
+    font-size: var(--size-xl);
   }
 
   .header__sun {
