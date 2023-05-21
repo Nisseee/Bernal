@@ -7,11 +7,12 @@
         <link  href="./styles/utils.css" rel="stylesheet"/>
         <link  href="./styles/components/header.css" rel="stylesheet"/>
         <link  href="./styles/components/footer.css" rel="stylesheet"/>
+        <link  href="./styles/components/about.css" rel="stylesheet"/>
         <link
         href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap"
         rel="stylesheet"
         />
-        <title>About</title>
+        <title>Profile</title>
 
     </head>
     <body>
@@ -63,46 +64,44 @@
                 </button>
               </nav>
         </header>
-        <main>
-            <div >
-            <h2 >About Me</h2>
-            <p >
-                My name is John Alvan Bernal,
-              and I am currently pursuing a <strong>Bachelor of Science in 
-              Information Technology.</strong>This website serves as a platform
-              for me to share my passion for technology and showcase my skills 
-              and knowledge in the field.
-            </p>
-            <p >
-                In the course of my academic career, I have had the chance 
-                to work on a number of difficult projects that have improved 
-                my technical proficiency and problem-solving capabilities.
-            </p>
-            <p >
-                This website serves as a portfolio where you can explore some
-                of my projects and see firsthand the skills I have developed 
-                throughout my studies.
-            </p>
-            <hr />
-            <h3 >Technologies</h3>
-            <div >
-              <ul >
-                <li >C Language</li>
-                <li >Java Language</li>
-                <li >HTML</li>
-              </ul>
-              <ul >
-                <li >JavaScript</li>
-                <li >CSS</li>
-                <li >Node JS</li>
-              </ul>
+        <main class="about container section">
+            <div class="about__content">
+                <h2 class="about__title">About</h2>
+                <p class="about__description">
+                    My name is John Alvan Bernal,
+                and I am currently pursuing a <strong>Bachelor of Science in 
+                Information Technology.</strong>This website serves as a platform
+                for me to share my passion for technology and showcase my skills 
+                and knowledge in the field.
+                </p>
+                <p class="about__description">
+                    In the course of my academic career, I have had the chance 
+                    to work on a number of difficult projects that have improved 
+                    my technical proficiency and problem-solving capabilities.
+                </p>
+                <p class="about__description">
+                    This website serves as a portfolio where you can explore some
+                    of my projects and see firsthand the skills I have developed 
+                    throughout my studies.
+                </p>
+                <hr class="about__hr" />
+                <h3 class="about__subtitle">More About Me</h3>
+                <div class="about__ul-container">
+                <!-- <ul class="about__ul">
+                    <li class="about__list">Date of Birth: March 6, 2002</li>
+                    <li class="about__list">Address: Tiwi, Albay</li>
+                    <li class="about__list"></li>
+                </ul> -->
+                
+                </div>
             </div>
-          </div>
-          <div >
-            <img
-              
-            />
-          </div>
+            <div class="about__img-wrapper">
+                <img
+                class="about__img"
+                src="./img/profile.png"
+                alt="picture"
+                />
+            </div>
         </main>
     </body>
     <footer>
