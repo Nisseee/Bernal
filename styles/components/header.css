@@ -7,7 +7,9 @@
   position: relative;
   z-index: 9999;
 }
-
+.header__brand{
+  padding: 0px 500px 0px 0px;
+}
 .header__menu {
   display: none;
 }
