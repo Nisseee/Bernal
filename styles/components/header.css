@@ -27,19 +27,13 @@
 
 /* md */
 @media (min-width: 768px) {
-  .header__menu {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    padding: 0;
-    gap: 2em;
-  }
+  
 
   .header__link {
     font-size: var(--size-base);
     text-decoration: none;
     font-weight: 600;
-    color: var(--clr-light);
+    color: var(--clr-slate600);
     letter-spacing: -0.05em;
     transition: color 0.3s;
   }
@@ -49,7 +43,7 @@
   }
 
   .header__line {
-    border: 1px solid var(--clr-slate800);
+    border: 1px solid var(--clr-slate600);
     padding-top: 1.5em;
   }
 
@@ -60,17 +54,22 @@
     height: var(--size-base);
   }
 
-  .header__resume {
+  .header__contact {
     font-size: var(--size-xs);
   }
 
-  .header__bars {
-    display: none;
-  }
+  
 }
 
 /* lg */
 @media (min-width: 1024px) {
+  .header__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    gap: 2em;
+  }
   .header__link {
     font-size: var(--size-xl);
   }
@@ -80,8 +79,11 @@
     height: var(--size-xl);
   }
 
-  .header__resume {
-    font-size: var(--size-sm);
+  .header__contact {
+    font-size: var(--size-base);
+  }
+  .header__bars {
+    display: none;
   }
 }
 

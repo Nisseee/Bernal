@@ -11,6 +11,8 @@
   }
   
   .about__title {
+    display: flex;
+    flex-direction: column;
     font-size: var(--size-2xl);
     color: var(--clr-light);
   }
@@ -60,10 +62,12 @@
     }
   
     .about__content {
+      margin: 0 auto;
       gap: 1.5rem;
     }
   
     .about__title {
+      margin: 0 auto;
       font-size: var(--size-3xl);
     }
   

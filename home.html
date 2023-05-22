@@ -7,16 +7,17 @@
         <link  href="./styles/utils.css" rel="stylesheet"/>
         <link  href="./styles/components/header.css" rel="stylesheet"/>
         <link  href="./styles/components/footer.css" rel="stylesheet"/>
-        <link  href="./styles/components/about.css" rel="stylesheet"/>
+        <link  href="./styles/components/hero.css" rel="stylesheet"/>
         <link  href="./styles/components/mobile-nav.css" rel="stylesheet"/>
         <link
         href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap"
         rel="stylesheet"
         />
         <title>Profile</title>
-
+        
     </head>
     <body>
+        
       <header class="header container">
         <nav>
           <ul class="header__menu">
@@ -103,44 +104,18 @@
       </div>
       <!-- End of Mobile  -->
         <main>
-            <section class="about container section">
-              <div class="about__img-wrapper">
-                <img
-                class="about__img"
-                src="./img/profile.png"
-                alt="picture"
-                />
-              </div>
-              <div class="about__content">
-                <h2 class="about__title">About</h2>
-                <p class="about__description">
-                    My name is John Alvan Bernal,
-                and I am currently pursuing a <strong>Bachelor of Science in 
-                Information Technology.</strong>This website serves as a platform
-                for me to share my passion for technology and showcase my skills 
-                and knowledge in the field.
-                </p>
-                <p class="about__description">
-                    In the course of my academic career, I have had the chance 
-                    to work on a number of difficult projects that have improved 
-                    my technical proficiency and problem-solving capabilities.
-                </p>
-                <p class="about__description">
-                    This website serves as a portfolio where you can explore some
-                    of my projects and see firsthand the skills I have developed 
-                    throughout my studies.
-                </p>
-                <hr class="about__hr" />
-                <h3 class="about__subtitle">More About Me</h3>
-                  <div class="about__ul-container">
-                  <!-- <ul class="about__ul">
-                      <li class="about__list">Date of Birth: March 6, 2002</li>
-                      <li class="about__list">Address: Tiwi, Albay</li>
-                      <li class="about__list"></li>
-                  </ul> -->
-                  
-                  </div>
-            </div>
+          <section class="hero container">
+            <img class="hero__img" src="./img/Alvan.png" alt="Profile picture" />
+            <h2 class="hero__subtitle">Hi, I'm Alvan 👋</h2>
+            <h1 class="hero__title">
+              BS IT Student.
+            </h1>
+            <p class="hero__description">
+              A passionate <strong>Frontend / Backend</strong> web
+              developer and a <strong>Programmer</strong>
+              
+            </p>
+            <a class="hero__btn btn" href="about.html">Know More</a>
           </section>
         </main>
         <script src="./js/main.js"></script>
@@ -148,3 +123,5 @@
     <footer class="footer container section">
       <h3 class="footer__title">~ Alvan Bernal &copy; 2023 ~</h3>
   </footer>
+
+</html>
