@@ -39,7 +39,7 @@
   }
 
   .header__link:hover {
-    color: var(--clr-rose);
+    color: var(--clr-green);
   }
 
   .header__line {
