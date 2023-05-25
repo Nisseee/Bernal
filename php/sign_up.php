@@ -4,15 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./styles/style.css" rel="stylesheet" />
-    <link href="./styles/modern-normalize.css" rel="stylesheet" />
-    <link href="./styles/utils.css" rel="stylesheet" />
-    <link href="./styles/components/header.css" rel="stylesheet" />
-    <link href="./styles/components/footer.css" rel="stylesheet" />
-    <link href="./styles/components/hero.css" rel="stylesheet" />
-    <link href="./styles/components/mobile-nav.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./styles/components/signup.css" />
-    <link rel="stylesheet" href="./styles/components/contact.css" />
+    <link href="../styles/style.css" rel="stylesheet" />
+    <link href="../styles/modern-normalize.css" rel="stylesheet" />
+    <link href="../styles/utils.css" rel="stylesheet" />
+    <link href="../styles/components/mobile-nav.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles/components/signup.css" />
+    <link rel="stylesheet" href="../styles/components/contact.css" />
     <link
       href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap"
       rel="stylesheet"
@@ -26,10 +23,13 @@
         <div class="card">
           <div class="card-content">
             <form class="form" action="signup.php" method="post">
+            <?php if (isset($_GET['error'])) { ?>
+                <p class="error"><?php echo $_GET['error']; ?></p>
+            <?php } ?>
               <div class="form-group">
                 <label for="email" class="label">Username</label>
                 <input
-                  type="email"
+                  type="text"
                   name="name"
                   id="email"
                   class="input"
@@ -73,7 +73,7 @@
               <button type="submit" class="signup-btn">Sign up</button>
               <p class="register-link">
                 Already have an account?
-                <a href="#" class="register-link-text">Sign in</a>
+                <a href="../index.php" class="register-link-text">Sign in</a>
               </p>
             </form>
           </div>

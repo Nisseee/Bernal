@@ -17,7 +17,7 @@ window.onload = function () {
         document.body.style.overflowY = 'auto';
       }
     });
-  
+   //for mobile screen size
     mobileLinks.forEach(link => {
       link.addEventListener('click', () => {
         isMobileNavOpen = false;

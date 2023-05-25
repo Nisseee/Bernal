@@ -6,7 +6,6 @@
     <link href="../styles/utils.css" rel="stylesheet" />
     <link href="../styles/components/header.css" rel="stylesheet" />
     <link href="../styles/components/footer.css" rel="stylesheet" />
-    <link href="../styles/components/about.css" rel="stylesheet" />
     <link href="../styles/components/mobile-nav.css" rel="stylesheet" />
     <link
       href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap"
@@ -14,23 +13,23 @@
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <title>Protfolio | About</title>
+   
   </head>
   <body>
     <header class="header container">
       <nav>
         <ul class="header__menu">
           <li>
-            <a class="header__link" href="/components/home.html">Home</a>
+            <a class="header__link" href="../components/home.php">Home</a>
           </li>
           <li>
-            <a class="header__link" href="/components/about.html">About</a>
+            <a class="header__link" href="../components/about.php">About</a>
           </li>
           <li>
-            <a class="header__link" href="/components/skills.html">Skills</a>
+            <a class="header__link" href="../components/skills.php">Skills</a>
           </li>
           <li>
-            <a class="header__link" href="/components/projects.html">Projects</a>
+            <a class="header__link" href="../components/projects.php">Projects</a>
           </li>
           <li class="header__line"></li>
           <li>
@@ -47,12 +46,12 @@
             </button>
           </li>
           <li>
-            <a class="header__contact btn" href="/components/contact.html">Contact</a>
+            <a class="header__contact btn" href="../components/contact.php">Contact</a>
           </li>
           <li class="dropdown">
             <a class="dropdown-button"><i class="fa login-icon">&#xf007;</i><i class="bi bi-caret-down-fill"></i></a>
             <div class="dropdown-content">
-              <a class="header__contact " href="#">Logout</a>
+              <a class="header__contact " href="../php/logout.php">Logout</a>
             </div>
           </li>
         </ul>
@@ -76,16 +75,16 @@
       <nav>
         <ul class="mobile-nav__menu">
           <li>
-            <a class="mobile-nav__link" href="/components/home.html">Home</a>
+            <a class="mobile-nav__link" href="../components/home.php">Home</a>
           </li>
           <li>
-            <a class="mobile-nav__link" href="/components/about.html">About</a>
+            <a class="mobile-nav__link" href="../components/about.php">About</a>
           </li>
           <li>
-            <a class="mobile-nav__link" href="/components/skills.html">Skills</a>
+            <a class="mobile-nav__link" href="../components/skills.php">Skills</a>
           </li>
           <li>
-            <a class="mobile-nav__link" href="/components/projects.html">Projects</a>
+            <a class="mobile-nav__link" href="../components/projects.php">Projects</a>
           </li>
           <li class="mobile-nav__link-line"></li>
           <li>
@@ -102,69 +101,16 @@
             </button>
           </li>
           <li>
-            <a class="mobile-nav__btn btn" href="/components/contact.html">Contact</a>
+            <a class="mobile-nav__btn btn" href="../components/contact.php">Contact</a>
           </li>
           <li class="dropdown">
             <a class="dropdown-button"><i class="fa login-icon">&#xf007;</i><i class="bi bi-caret-down-fill"></i></a>
             <div class="dropdown-content">
-              <a class="header__contact " href="#">Logout</a>
+              <a class="header__contact " href="../php/logout.php">Logout</a>
             </div>
           </li>
         </ul>
       </nav>
     </div>
-    <!-- End of Mobile  -->
-    <main>
-      <div class="about container section">
-        <div class="about__img-wrapper">
-          <img class="about__img" src="../img/profile.png" alt="picture" />
-        </div>
-        <div class="about__content">
-          <h2 class="about__title">About</h2>
-          <p class="about__description">
-            My name is John Alvan Bernal, and I am currently pursuing a
-            <strong>Bachelor of Science in Information Technology.</strong>This
-            website serves as a platform for me to share my passion for
-            technology and showcase my skills and knowledge in the field.
-          </p>
-          <p class="about__description">
-            In the course of my academic career, I have had the chance to work
-            on a number of difficult projects that have improved my technical
-            proficiency and problem-solving capabilities.
-          </p>
-          <p class="about__description">
-            This website serves as a portfolio where you can explore some of my
-            projects and see firsthand the skills I have developed throughout my
-            studies.
-          </p>
-          <hr class="about__hr" />
-          <h3 class="about__subtitle">More About Me</h3>
-          <div class="about__ul-container">
-            <ul class="about__ul">
-              <h3 class="about__subtitle">Education</h3>
-                    <li class="about__list">Tiwi Central School [Elementary 2008 - 2015]</li>
-                    <li class="about__list">Tabaco National High School [Junior High 2015 - 2019]</li>
-                    <li class="about__list">Tabaco National High School [Senior High 2019 - 2021]</li>
-              </ul>
-          </div>
-          <div class="about__ul-container">
-            <ul class="about__ul">
-              <h3 class="about__subtitle">Skill/Qualification</h3>
-                    <li class="about__list">Good communication</li>
-                    <li class="about__list">Willing to learn</li>
-                    <li class="about__list">Fast learner</li>
-                    <li class="about__list">Can   work   under   pressure</li>
-                    <li class="about__list">Responsible to provide a good quality
-                      customer service</li>
-                    <li class="about__list"><a class="btn" href="../components/skills.html">Technologic Skills</a></li>
-              </ul>
-          </div>
-        </div>
-      </div>
-    </main>
-    <script src="../js/main.js"></script>
   </body>
-  <footer class="footer container section">
-    <h3 class="footer__title">~ Alvan Bernal &copy; 2023 ~</h3>
-  </footer>
-</html>
+  </html>

@@ -17,31 +17,26 @@
       href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap"
       rel="stylesheet"
     />
-    <title>Sign up</title>
+    <title>Log In</title>
   </head>
   <body>
     <section class="bg-gray-50 dark:bg-gray-900">
       <div class="signup-container">
-        <a class="heading"> Create an account </a>
+        <a class="heading"> Log in </a>
         <div class="card">
           <div class="card-content">
-            <form class="form" action="signup.php" method="post">
-              <div class="form-group">
-                <label for="email" class="label">Username</label>
-                <input
-                  type="email"
-                  name="name"
-                  id="email"
-                  class="input"
-                  placeholder="Enter username"
-                  required=""
-                />
-              </div>
+            <form class="form" action="./php/login.php" method="post">
+            <?php if (isset($_GET['error'])) { ?>
+                <p class="error"><?php echo $_GET['error']; ?></p>
+            <?php } ?>
+            <?php if (isset($_GET['success'])) { ?>
+                <p class="success"><?php echo $_GET['success']; ?></p>
+            <?php } ?>
               <div class="form-group">
                 <label for="email" class="label">Email</label>
                 <input
                   type="email"
-                  name="email"
+                  name="ename"
                   id="email"
                   class="input"
                   placeholder="name@company.com"
@@ -59,21 +54,11 @@
                   required=""
                 />
               </div>
-              <div class="form-group">
-                <label for="password" class="label">Confirm Password</label>
-                <input
-                  type="password"
-                  name="confpassword"
-                  id="password"
-                  class="input"
-                  placeholder="••••••••"
-                  required=""
-                />
-              </div>
+              
               <button type="submit" class="signup-btn">Log In</button>
               <p class="register-link">
                 Don't have an account?
-                <a href="signup.php" class="register-link-text">Sign up</a>
+                <a href="./php/sign_up.php" class="register-link-text">Sign up</a>
               </p>
             </form>
           </div>

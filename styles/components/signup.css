@@ -174,3 +174,20 @@
 .register-link.dark a:hover {
   text-decoration: underline;
 }
+.error {
+	background: #F2DEDE;
+	color: #A94442;
+	padding: 10px;
+	width: 95%;
+	border-radius: 5px;
+	margin: 20px auto;
+  }
+  .success {
+	text-align: center;
+	background: #ecf2de;
+	color: #42a950;
+	padding: 10px;
+	width: 95%;
+	border-radius: 5px;
+	margin: 20px auto;
+  }
