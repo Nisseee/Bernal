@@ -19,6 +19,51 @@
   display: block;
 }
 
+/* dropdown for user icon */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-button {
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  text-align: center;
+  background-color: var(--clr-green);
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: inline-block;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: -0.05em;
+  background-color: green;
+  color: #f1f5f9;
+  border-radius: 6px;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: var(--clr-indigo);
+  border-radius: 6px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
 /* xs */
 /* @media (min-width: 475px) {} */
 

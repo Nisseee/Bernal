@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link href="./styles/style.css" rel="stylesheet" />
-    <link href="./styles/modern-normalize.css" rel="stylesheet" />
-    <link href="./styles/utils.css" rel="stylesheet" />
-    <link href="./styles/components/header.css" rel="stylesheet" />
-    <link href="./styles/components/footer.css" rel="stylesheet" />
-    <link href="./styles/components/hero.css" rel="stylesheet" />
-    <link href="./styles/components/mobile-nav.css" rel="stylesheet" />
+    <link href="../styles/style.css" rel="stylesheet" />
+    <link href="../styles/modern-normalize.css" rel="stylesheet" />
+    <link href="../styles/utils.css" rel="stylesheet" />
+    <link href="../styles/components/header.css" rel="stylesheet" />
+    <link href="../styles/components/footer.css" rel="stylesheet" />
+    <link href="../styles/components/hero.css" rel="stylesheet" />
+    <link href="../styles/components/mobile-nav.css" rel="stylesheet" />
     <link
       href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap"
       rel="stylesheet"
     />
-    <title>Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Protfolio | Home</title>
   </head>
   <body>
     <header class="header container">
       <nav>
         <ul class="header__menu">
           <li>
-            <a class="header__link" href="home.html">Home</a>
+            <a class="header__link" href="/components/home.html">Home</a>
           </li>
           <li>
-            <a class="header__link" href="about.html">About</a>
+            <a class="header__link" href="/components/about.html">About</a>
           </li>
           <li>
-            <a class="header__link" href="skills.html">Skills</a>
+            <a class="header__link" href="/components/skills.html">Skills</a>
           </li>
           <li>
-            <a class="header__link" href="projects.html">Projects</a>
+            <a class="header__link" href="/components/projects.html">Projects</a>
           </li>
           <li class="header__line"></li>
           <li>
@@ -45,7 +47,13 @@
             </button>
           </li>
           <li>
-            <a class="header__contact btn" href="contact.html">Contact</a>
+            <a class="header__contact btn" href="/components/contact.html">Contact</a>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-button"><i class="fa login-icon">&#xf007;</i><i class="bi bi-caret-down-fill"></i></a>
+            <div class="dropdown-content">
+              <a class="header__contact " href="#">Logout</a>
+            </div>
           </li>
         </ul>
         <button class="header__bars">
@@ -68,16 +76,16 @@
       <nav>
         <ul class="mobile-nav__menu">
           <li>
-            <a class="mobile-nav__link" href="home.html">Home</a>
+            <a class="mobile-nav__link" href="/components/home.html">Home</a>
           </li>
           <li>
-            <a class="mobile-nav__link" href="about.html">About</a>
+            <a class="mobile-nav__link" href="/components/about.html">About</a>
           </li>
           <li>
-            <a class="mobile-nav__link" href="skills.html">Skills</a>
+            <a class="mobile-nav__link" href="/components/skills.html">Skills</a>
           </li>
           <li>
-            <a class="mobile-nav__link" href="projects.html">Projects</a>
+            <a class="mobile-nav__link" href="/components/projects.html">Projects</a>
           </li>
           <li class="mobile-nav__link-line"></li>
           <li>
@@ -94,7 +102,13 @@
             </button>
           </li>
           <li>
-            <a class="mobile-nav__btn btn" href="contact.html">Contact</a>
+            <a class="mobile-nav__btn btn" href="/components/contact.html">Contact</a>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-button"><i class="fa login-icon">&#xf007;</i><i class="bi bi-caret-down-fill"></i></a>
+            <div class="dropdown-content">
+              <a class="header__contact " href="#">Logout</a>
+            </div>
           </li>
         </ul>
       </nav>
@@ -102,17 +116,17 @@
     <!-- End of Mobile  -->
     <main>
       <div class="hero container">
-        <img class="hero__img" src="./img/Alvan.png" alt="Profile picture" />
+        <img class="hero__img" src="../img/Alvan.png" alt="Profile picture" />
         <h2 class="hero__subtitle">Hi, I'm Alvan 👋</h2>
         <h1 class="hero__title">BS IT Student.</h1>
         <p class="hero__description">
           A passionate <strong>Frontend / Backend</strong> web developer and a
           <strong>Programmer</strong>
         </p>
-        <a class="hero__btn btn" href="about.html">Know More</a>
+        <a class="hero__btn btn" href="/components/about.html">Know More</a>
       </div>
     </main>
-    <script src="./js/main.js"></script>
+    <script src="../js/main.js"></script>
   </body>
   <footer class="footer container section">
     <h3 class="footer__title">~ Alvan Bernal &copy; 2023 ~</h3>

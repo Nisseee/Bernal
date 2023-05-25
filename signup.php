@@ -25,12 +25,12 @@
         <a class="heading"> Create an account </a>
         <div class="card">
           <div class="card-content">
-            <form class="form" action="#">
+            <form class="form" action="signup.php" method="post">
               <div class="form-group">
                 <label for="email" class="label">Username</label>
                 <input
                   type="email"
-                  name="email"
+                  name="name"
                   id="email"
                   class="input"
                   placeholder="Enter username"
@@ -63,7 +63,7 @@
                 <label for="password" class="label">Confirm Password</label>
                 <input
                   type="password"
-                  name="password"
+                  name="confpassword"
                   id="password"
                   class="input"
                   placeholder="••••••••"
