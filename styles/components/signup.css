@@ -1,0 +1,176 @@
+/* Sign up */
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin: 0 auto;
+  height: 100vh;
+  max-width: 46rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.logo img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.card {
+  width: 100%;
+  background-color: var(--clr-dark);
+  border-radius: 0.375rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.card.dark {
+  border: 1px solid #444;
+  background-color: #333;
+}
+
+.card-content {
+  padding: 1.5rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--clr-light);
+}
+
+.title.dark {
+  color: #fff;
+}
+
+.form {
+  margin-top: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--clr-light);
+}
+
+.input,
+.textarea {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 0.875rem;
+  color: var(--clr-dark);
+  background-color: var(--clr-light);
+  border-radius: 0.25rem;
+  border: none;
+  outline: none;
+}
+
+.input.dark,
+.textarea.dark {
+  color: #fff;
+  background-color: #333;
+  border-color: #555;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  background-color: #f9f9f9;
+  margin-right: 0.5rem;
+}
+
+.checkbox.dark {
+  background-color: #333;
+  border-color: #555;
+}
+
+.checkbox:checked {
+  background-color: var(--clr-indigo);
+  border-color: var(--clr-indigo);
+}
+
+.checkbox-label {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.forgot-password {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--clr-indigo);
+  text-decoration: none;
+}
+
+.forgot-password.dark {
+  color: #0044a6;
+}
+
+.signup-btn {
+  display: inline-block;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: -0.05em;
+  background-color: var(--clr-green);
+  color: #f1f5f9;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.signup-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 28px rgba(29, 225, 176, 0.25),
+    0 10px 10px rgba(29, 218, 225, 0.22), 0 0 120px -10px var(--clr-green);
+}
+
+.register-link {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #888;
+}
+
+.register-link a {
+  font-weight: 500;
+  color: var(--clr-indigo);
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+.register-link.dark {
+  color: #ccc;
+}
+
+.register-link.dark a {
+  color: #0044a6;
+}
+
+.register-link.dark a:hover {
+  text-decoration: underline;
+}

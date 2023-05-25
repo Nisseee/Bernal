@@ -27,8 +27,6 @@
 
 /* md */
 @media (min-width: 768px) {
-  
-
   .header__link {
     font-size: var(--size-base);
     text-decoration: none;
@@ -57,8 +55,6 @@
   .header__contact {
     font-size: var(--size-xs);
   }
-
-  
 }
 
 /* lg */

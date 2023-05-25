@@ -8,7 +8,7 @@
     padding: 1rem;
     position: relative;
 }
-.skill-head:after{
+/* .skill-head:after{
     content: '';
     position: absolute;
     bottom: 0;
@@ -16,8 +16,8 @@
     transform: translateX(-50%);
     height: 4px;
     width: 100px;
-    background: var(--clr-rose);
-}
+    background: var(--clr-);
+} */
 .skill-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -55,7 +55,7 @@
     width: 0;
     height: 4px;
     border-radius: 2px 0 0 2px;
-    background-color: var(--clr-rose);
+    background-color: var(--clr-indigo);
     transition: 0.5s;
 }
 .skill-title:before{
@@ -66,7 +66,7 @@
     width: 0;
     height: 4px;
     border-radius:0 2px 2px 0;
-    background-color: var(--clr-rose);
+    background-color: var(--clr-indigo);
     transition: 0.5s;
 }
 .logo{
@@ -118,7 +118,7 @@
 .bar span{
     height: 10px;
     float: left;
-    background: linear-gradient(135deg, rgba(236,0,140,1)0%, rgb(252, 48, 48)100%);
+    background: var(--clr-indigo)
 }
 .html{
     width: 70%;
