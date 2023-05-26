@@ -17,6 +17,7 @@
       href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap"
       rel="stylesheet"
     />
+    
     <title>Log In</title>
   </head>
   <body>
@@ -40,7 +41,7 @@
                   id="email"
                   class="input"
                   placeholder="name@company.com"
-                  required=""
+                  
                 />
               </div>
               <div class="form-group">
@@ -51,7 +52,7 @@
                   id="password"
                   class="input"
                   placeholder="••••••••"
-                  required=""
+                  
                 />
               </div>
               

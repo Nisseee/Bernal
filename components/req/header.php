@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-<<<<<<< HEAD
     
-=======
->>>>>>> f5657882ad5edf9b4a8dc77aaabbb7ad147a6bd2
     <link href="../styles/style.css" rel="stylesheet" />
     <link href="../styles/modern-normalize.css" rel="stylesheet" />
     <link href="../styles/utils.css" rel="stylesheet" />
@@ -17,7 +14,6 @@
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-<<<<<<< HEAD
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" type="image/png" sizes="32x32" href="../img/icon.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="../img/icon1.png" />
@@ -35,13 +31,6 @@
     </div>
       <nav>
         
-=======
-   
-  </head>
-  <body>
-    <header class="header container">
-      <nav>
->>>>>>> f5657882ad5edf9b4a8dc77aaabbb7ad147a6bd2
         <ul class="header__menu">
           <li>
             <a class="header__link" href="../components/home.php">Home</a>
@@ -57,21 +46,7 @@
           </li>
           <li class="header__line"></li>
           <li>
-<<<<<<< HEAD
             
-=======
-            <button id="theme-toggle" class="header__sun">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-              >
-                <path
-                  d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"
-                />
-              </svg>
-            </button>
->>>>>>> f5657882ad5edf9b4a8dc77aaabbb7ad147a6bd2
           </li>
           <li>
             <a class="header__contact btn" href="../components/contact.php">Contact</a>
@@ -116,21 +91,7 @@
           </li>
           <li class="mobile-nav__link-line"></li>
           <li>
-<<<<<<< HEAD
             
-=======
-            <button id="theme-toggle" class="mobile-nav__sun">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-              >
-                <path
-                  d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"
-                />
-              </svg>
-            </button>
->>>>>>> f5657882ad5edf9b4a8dc77aaabbb7ad147a6bd2
           </li>
           <li>
             <a class="mobile-nav__btn btn" href="../components/contact.php">Contact</a>

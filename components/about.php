@@ -57,11 +57,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['email'])) {
                     <li class="about__list">Can   work   under   pressure</li>
                     <li class="about__list">Responsible to provide a good quality
                       customer service</li>
-<<<<<<< HEAD
                     <li class="about__list"><a class="btn" href="../components/skills.php">Technologic Skills</a></li>
-=======
-                    <li class="about__list"><a class="btn" href="../components/skills.html">Technologic Skills</a></li>
->>>>>>> f5657882ad5edf9b4a8dc77aaabbb7ad147a6bd2
               </ul>
           </div>
         </div>
@@ -70,11 +66,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['email'])) {
     <script src="../js/main.js"></script>
   </body>
   <footer class="footer container section">
-<<<<<<< HEAD
   <?php require'../components/req/footer.php';?>
-=======
-    <h3 class="footer__title">~ Alvan Bernal &copy; 2023 ~</h3>
->>>>>>> f5657882ad5edf9b4a8dc77aaabbb7ad147a6bd2
   </footer>
 </html>
 <?php 

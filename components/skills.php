@@ -1,12 +1,9 @@
-<<<<<<< HEAD
 <?php 
 session_start();
 
 if (isset($_SESSION['id']) && isset($_SESSION['email'])) {
 
  ?>
-=======
->>>>>>> f5657882ad5edf9b4a8dc77aaabbb7ad147a6bd2
 <!DOCTYPE html>
 <html lang="en">
 
@@ -131,7 +128,6 @@ if (isset($_SESSION['id']) && isset($_SESSION['email'])) {
         <script src="../js/main.js"></script>
     </body>
     <footer class="footer container section">
-<<<<<<< HEAD
       <?php require'../components/req/footer.php';?>
     </footer>
 
@@ -142,9 +138,3 @@ if (isset($_SESSION['id']) && isset($_SESSION['email'])) {
      exit();
 }
  ?>
-=======
-      <h3 class="footer__title">~ Alvan Bernal &copy; 2023 ~</h3>
-  </footer>
-
-</html>
->>>>>>> f5657882ad5edf9b4a8dc77aaabbb7ad147a6bd2
