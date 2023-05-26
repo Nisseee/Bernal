@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+<<<<<<< HEAD
+    
+=======
+>>>>>>> f5657882ad5edf9b4a8dc77aaabbb7ad147a6bd2
     <link href="../styles/style.css" rel="stylesheet" />
     <link href="../styles/modern-normalize.css" rel="stylesheet" />
     <link href="../styles/utils.css" rel="stylesheet" />
@@ -13,11 +17,31 @@
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<<<<<<< HEAD
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/icon.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/icon1.png" />
+
+    <style>
+      .mobile-nav__link:hover {
+      color: var(--clr-green);
+      }
+    </style>
+  </head>
+  <body>
+    <header style=" justify-content: space-between;" class="header container">
+    <div style="margin-left: 100px; " >
+          <h1><a style="text-decoration: none;" href="">Alvan Bernal</a> </h1>
+    </div>
+      <nav>
+        
+=======
    
   </head>
   <body>
     <header class="header container">
       <nav>
+>>>>>>> f5657882ad5edf9b4a8dc77aaabbb7ad147a6bd2
         <ul class="header__menu">
           <li>
             <a class="header__link" href="../components/home.php">Home</a>
@@ -33,6 +57,9 @@
           </li>
           <li class="header__line"></li>
           <li>
+<<<<<<< HEAD
+            
+=======
             <button id="theme-toggle" class="header__sun">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -44,6 +71,7 @@
                 />
               </svg>
             </button>
+>>>>>>> f5657882ad5edf9b4a8dc77aaabbb7ad147a6bd2
           </li>
           <li>
             <a class="header__contact btn" href="../components/contact.php">Contact</a>
@@ -88,6 +116,9 @@
           </li>
           <li class="mobile-nav__link-line"></li>
           <li>
+<<<<<<< HEAD
+            
+=======
             <button id="theme-toggle" class="mobile-nav__sun">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -99,6 +130,7 @@
                 />
               </svg>
             </button>
+>>>>>>> f5657882ad5edf9b4a8dc77aaabbb7ad147a6bd2
           </li>
           <li>
             <a class="mobile-nav__btn btn" href="../components/contact.php">Contact</a>
