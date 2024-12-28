@@ -1,4 +1,4 @@
 # Bernal
-# BSIT 2B
-# John Alvan Bernal 
-# https://youtu.be/gH0tc3QVLVY
+Personla Website Using PHP, HTML, CSS and JavaScript
+John Alvan Bernal 
+https://youtu.be/gH0tc3QVLVY
